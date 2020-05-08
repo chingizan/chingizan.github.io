@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Приложение</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="app">
+		<a href="https://vk.com/dodopizzafree?w=wall-164764937_18" class="block" target="_blank"></a>
+		<div class="content">
+			<div class="box">
+				<img src="shield.svg" alt="">
+				<p>Группа имеет официальный статус. Проверено администрацией вконтакте!</p>
+				<a href="https://vk.com/dodopizzafree?w=wall-164764937_18" class="btn" target="_blank">Перейти в группу</a>
+			</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+
+    <script>
+        // Sends event to client
+        vkBridge.send('VKWebAppInit');
+    </script> 
+</body>
+</html>
